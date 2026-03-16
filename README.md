@@ -92,7 +92,7 @@ npm run dev
 ## Deployment
 
 - Frontend: Vercel (see `frontend/vite.config.ts` for base config)
-- Backend: Any Node host with MongoDB connectivity (Render/Heroku/etc.). Provide the `.env` values above.
+- Backend: Render with MongoDB. Provide the `.env` values above.
 
 ## Additional References
 
