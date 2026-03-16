@@ -3,16 +3,6 @@
 	<p>Role-based library operations with dashboards for admins, librarians, and students.</p>
 </div>
 
-## Live App
-
-- Base URL: https://e2e-smart-library.vercel.app/
-- Student login: https://e2e-smart-library.vercel.app/
-- Student signup request: https://e2e-smart-library.vercel.app/request-signup
-- Librarian login: https://e2e-smart-library.vercel.app/librarian/login
-- Librarian signup request: https://e2e-smart-library.vercel.app/librarian/request-signup
-- Admin login: https://e2e-smart-library.vercel.app/admin/login
-- Admin signup: https://e2e-smart-library.vercel.app/admin/signup
-
 ## Overview
 
 The project pairs a React + Vite frontend with an Express + MongoDB backend. It supports multi-role access, circulation workflows (borrowing, returns, reservations), signup approvals, overdue notifications, and analytics dashboards.
@@ -92,7 +82,7 @@ npm install
 # frontend/.env
 VITE_API_BASE_URL=http://localhost:5000
 ```
-If unset, the client falls back to the hosted API at https://e2e-backend-1zjm.onrender.com.
+If unset, the client will call http://localhost:5000.
 
 3) Run the dev server
 ```
@@ -108,6 +98,16 @@ npm run dev
 
 - API overview: backend/API_END_POINTS.md
 - Data models: backend/SCHEMAS.md
+
+## Project Demo Links (Vercel)
+
+- Base URL: https://e2e-smart-library.vercel.app/
+- Student login: https://e2e-smart-library.vercel.app/
+- Student signup request: https://e2e-smart-library.vercel.app/request-signup
+- Librarian login: https://e2e-smart-library.vercel.app/librarian/login
+- Librarian signup request: https://e2e-smart-library.vercel.app/librarian/request-signup
+- Admin login: https://e2e-smart-library.vercel.app/admin/login
+- Admin signup: https://e2e-smart-library.vercel.app/admin/signup
 
 ---
 Created for quick GitHub onboarding. Feel free to tailor copy and URLs to your deployment.
